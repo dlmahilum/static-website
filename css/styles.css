@@ -1,8 +1,23 @@
 body{
     background-color: blue;
+    align-items: center;
 }
 
 h1, h2{
     color: #ffffff;
+    text-align: center;
+}
+
+p{
+    color: #ffffff;
+    text-align: center;
+}
+
+#my-avatar{
+    width: 150px;
+    border-radius: 50%;
+    align-items: center;
+}
+#content{
     text-align: center;
 }
