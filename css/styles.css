@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #22A39F;
+    background-color: #F3EFE0;
     font-family: 'Noto Serif', serif;
     color: #222222;
 }
@@ -22,5 +22,30 @@ body{
 
 #my-name{
     font-family: 'Klee One', cursive;
-    color: #434242;
+    color: #22A39F;
+}
+
+#left-side{
+    display: inline-block;
+    width: 50%;
+}
+
+#right-side{
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+
+a{
+    color: #222222;
+    text-decoration: none;
+    border-bottom: 1px dotted #222222;
+}
+
+header{
+    padding: 20px;
+}
+
+.nav-link{
+    margin-left: 30px;
 }
