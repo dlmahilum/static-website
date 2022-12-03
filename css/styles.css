@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Noto+Serif&display=swap');
 
+/*CSS Reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: #1e388b;
+    background-color: #22A39F;
     font-family: 'Noto Serif', serif;
-}
-
-h1, h2{
-    color: #ffffff;
-}
-
-p{
-    color: #ffffff;
+    color: #222222;
 }
 
 #my-avatar{
@@ -23,4 +22,5 @@ p{
 
 #my-name{
     font-family: 'Klee One', cursive;
+    color: #434242;
 }
