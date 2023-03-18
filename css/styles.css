@@ -89,22 +89,26 @@ footer a:first-child{
 
 #hero-banner{
     background: linear-gradient(90deg, lightgreen, green, rgb(3, 255, 3));
-    padding-top: 16px;
-    padding-bottom: 16px;
 }
 
 #hero-banner > div{
-    width: 50%;
-    margin: 0 auto;
+    width: 100vw; /* vw -> viewport width */
+    display: flex;
+    column-gap: 16px;
+    justify-content: space-around;
+    padding: 16px;
 }
 
-#hero-banner > div > div{
-    display: inline-block;
-
-}
 #hero-banner h1,
 #hero-banner h2{
     color: white;
+}
+
+#hero-banner h1{
+    font-size: 2rem; /* 1rem -> 16px */
+}
+#hero-banner h2{
+    font-size: 1rem;
 }
 h3{
     text-align: center;
