@@ -60,9 +60,17 @@ a{
 
 footer{
     position: absolute;
-    bottom: 16px;
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: 0;
+     width: 100vw; /* vw - viewport width  */
+     padding: 16px;
+}
+footer > section{
+    /* position: absolute;
+    bottom: 16px; */
+    /* left: 50%;
+    transform: translateX(-50%); */
+    display: flex;
+    justify-content: space-around;
 }
 footer a:first-child{
     margin-right: 16px;
