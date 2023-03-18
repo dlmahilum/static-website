@@ -95,10 +95,15 @@ footer a:first-child{
     width: 100vw; /* vw -> viewport width */
     display: flex;
     column-gap: 16px;
-    justify-content: space-around;
     padding: 16px;
 }
 
+@media (min-width: 426px) and (max-width: 768px){
+    #hero-banner > div{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
 #hero-banner h1,
 #hero-banner h2{
     color: white;
